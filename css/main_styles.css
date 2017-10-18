@@ -1,0 +1,78 @@
+/* Base Styles */
+html {
+	background: red; /* For Browsers Without Gradient Support */
+	background: -webkit-linear-gradient(grey,#262626); /* Safari */
+	background: -o-linear-gradient(grey,#262626); /* Opera */
+	background: -moz-linear-gradient(grey,#262626); /* Firefox */
+	background: linear-gradient(grey,#262626); /* Standard Syntax */
+}
+
+body {
+	background: #fff;
+}
+
+/* Banner Styles */
+
+body > header > div#banner > h1 {
+	font-size: 5em;
+}
+
+/* Horizontal Navigation Styles */
+
+body > header > nav li {
+	background-color: #000000;
+	line-height: 1.9em;
+}
+
+body > header > nav li:hover{
+	background-color: #ddd;
+}
+
+body > header > nav a:hover {
+	color: #000000;
+}
+
+body > header > nav a {
+	color: #ffffff;
+}
+
+/* Body Text Styles */
+
+body > h1 {
+	font-size: 1.75em;
+	text-decoration: underline;
+}
+
+body > p {
+	font-size: 1.05em;
+	line-height: 1.25em;
+}
+
+body > h1 a {
+	color: black;
+}
+
+/* Footer Styles */
+
+body > footer {
+	background: #494343;
+	line-height: 2em;
+	color: black;
+}
+
+body > footer a {
+	color: black;
+	text-decoration: none;
+}
+
+/* Mobile Styling */
+@media only screen and (max-width: 1080px) {
+	body > h1 {
+		font-size: 2.25em;
+	}
+
+	body > p {
+		font-size: 1.30em;
+	}
+
+}

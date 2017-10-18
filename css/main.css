@@ -1,0 +1,126 @@
+/* Base Styles */
+body {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+body > hr {
+	width: 90%;
+}
+
+/* Banner Styles */
+
+body > header > div#banner > img#banner{
+	display: block;
+	float: left;
+	width: 100%;
+}
+
+#banner::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* Horizontal Navigation Styles */
+
+body > header > nav.horizontalNav li {
+	width: 14.2857143%;
+}
+
+nav.horizontalNav li {
+	display: block;
+	float: left;
+}
+
+nav.horizontalNav a {
+	display: block;
+	text-align: center;
+}
+
+/* Body Text Styles */
+
+body > h1 {
+	margin-left: 2%;
+	margin-bottom: 1%;
+}
+
+body > h1#first {
+	margin-top: 4%;
+}
+
+body > p {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+}
+
+body > hr {
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+body > ul {
+	margin-left: 2.5%;
+}
+
+body > ul li {
+	margin-top: 1%;
+	margin-left: 3%;
+}
+
+body > table {
+	margin-left: 2.5%;
+	margin-right: 2.5%;
+	max-width: 90%;
+}
+
+body > table td {
+	margin-left: 1%;
+	margin-right: 1%;
+	max-width: 500px;
+}
+
+/* Slide Show Styles */
+
+body > div#slide-show {
+	width: 80%;
+	margin-left: auto;
+	margin-bottom: 2%;
+}
+
+body > div#slide-show img#slide-show-img {
+	display: block;
+	float: left;
+	width: 60%;
+}
+
+body > div#slide-show img.next-prev {
+	display: block;
+	float: left;
+	width: 10%;
+	height: 200%;
+}
+
+body > div#slide-show img.next-prev:hover {
+	filter: brightness(.75);
+}
+
+#slide-show::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+/* Footer Content */
+
+body > footer {
+	text-align: center;
+}
+
+/* Mobile Styling */
+@media only screen and (max-width: 1080px) {
+	body {
+		width: 100%;
+	}
+}
