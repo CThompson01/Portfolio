@@ -1,0 +1,16 @@
+ /*Full Width Split Box
+--------------------------------------------------------------------------------------------------------------- */
+.split{display:block; width:100%; background-position:top right; background-repeat:no-repeat; background-size:cover;}
+
+.split .box{display:block; float:right; width:50%; padding:6% 4%;}
+.split .box .elements{}
+.split .box .elements li{display:block; position:relative; width:100%; min-height:80px; margin:0; padding:0 0 50px 80px;}
+.split .box .elements li::before{position:absolute; top:0; left:30px; width:1px; height:100%; content:"";}
+.split .box .elements li:last-child{padding-bottom:0;}
+.split .box .elements li:last-child::before{display:none;}
+.split .box .elements li article *{margin:0; padding:0;}
+.split .box .elements li article .icon{display:block; position:absolute; top:0; left:0; margin:0; width:60px; height:60px; border:none;}
+.split .box .elements li article .icon i{display:block; position:relative; width:60px; height:60px; line-height:58px; border:1px solid; border-radius:50%; font-size:22px; text-align:center;}
+.split .box .elements li article .icon i::before{}
+.split .box .elements li article .icon i::after{display:block; position:absolute; top:3px; left:3px; width:52px; height:52px; border:2px solid; border-radius:50%; content:"";}
+.split .box .elements li article .heading{margin-bottom:10px; padding-top:5px; font-size:1.2rem;}
